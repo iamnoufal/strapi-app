@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "websites",
+  "info": {
+    "singularName": "website",
+    "pluralName": "websites",
+    "displayName": "website",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tagline": {
+      "type": "string"
+    },
+    "about": {
+      "displayName": "about",
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.about"
+    }
+  }
+}
