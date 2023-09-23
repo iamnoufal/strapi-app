@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_portfolio_educations",
+  "info": {
+    "displayName": "education"
+  },
+  "options": {},
+  "attributes": {
+    "school_name": {
+      "type": "string"
+    },
+    "degree": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "color": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "year": {
+      "type": "string"
+    }
+  }
+}

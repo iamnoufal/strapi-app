@@ -375,6 +375,9 @@ export interface ApiWebsiteWebsite extends Schema.SingleType {
   attributes: {
     tagline: Attribute.String;
     about: Attribute.Component<'portfolio.about', true>;
+    projects: Attribute.Component<'portfolio.projects', true>;
+    skills: Attribute.Component<'portfolio.skills', true>;
+    education: Attribute.Component<'portfolio.education', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

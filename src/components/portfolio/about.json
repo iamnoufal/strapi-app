@@ -9,12 +9,6 @@
   "attributes": {
     "para": {
       "type": "string"
-    },
-    "projects": {
-      "displayName": "projects",
-      "type": "component",
-      "repeatable": true,
-      "component": "portfolio.projects"
     }
   }
 }

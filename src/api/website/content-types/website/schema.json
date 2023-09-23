@@ -20,6 +20,23 @@
       "type": "component",
       "repeatable": true,
       "component": "portfolio.about"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.projects"
+    },
+    "skills": {
+      "displayName": "skills",
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.skills"
+    },
+    "education": {
+      "displayName": "education",
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.education"
     }
   }
 }
