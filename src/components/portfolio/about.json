@@ -8,7 +8,7 @@
   "options": {},
   "attributes": {
     "para": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

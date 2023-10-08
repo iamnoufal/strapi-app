@@ -8,7 +8,7 @@ export interface PortfolioAbout extends Schema.Component {
     description: '';
   };
   attributes: {
-    para: Attribute.String;
+    para: Attribute.Text;
   };
 }
 
