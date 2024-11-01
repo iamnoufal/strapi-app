@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flows",
+  "info": {
+    "singularName": "flow",
+    "pluralName": "flows",
+    "displayName": "Flow",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "emoji": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "single": {
+      "type": "boolean"
+    },
+    "time": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
